@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="assets/fontawesome-free-6.4.0-web/css/fontawesome.css" rel="stylesheet">
+        <link href="assets/fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet">
+        <link href="assets/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet">
+        <script src="calculator.js"></script>
+        <script src="assets/js/calc.js"></script>
+        <title>HYDROKOMB</title>
+        <link href="https://fonts.cdnfonts.com/css/glow-better" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <img src="assets/img/hko.png" alt="" class="nav-logo" >
+
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Kombucha</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Beneficios</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Encuesta</a></li>
+                        <li class="nav__item"><a href="#calculator" class="nav__link">Calculadoras</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">HYDROKOMB</h1>
+                        <h2 class="home__subtitle">Hidrata tu cuerpo, <br> refresca tu mente</h2>
+                        <a href="#menu" class="button">Ver Menu</a>
+                    </div>
+
+                    <img src="assets/img/hko1.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">QUE ES LA </span>
+                        <h2 class="section-title about__initial"> KOMBUCHA <br> </h2>
+                        <p class="about__description">La kombucha es una bebida fermentada hecha a partir de té endulzado y una colonia de bacterias y levaduras llamada SCOBY. Es conocida por sus beneficios para la salud y su increible sabor.</p>
+                        
+                    </div>
+
+                    <img src="assets/img/kombuchaf.webp" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== BENEFICIOS ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Nuestra Kombucha ofrece</span>
+                <h2 class="section-title">Increibles Beneficios</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <i class="fa-solid fa-bottle-water fa-4x" style="color:#1ec9d5;"></i>
+                        <h3 class="services__title">Hidratación</h3>
+                        <p class="services__description">Hydrokomb está diseñado para hidratar el cuerpo después de un sesión de deporte.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class="fa-solid fa-heart-pulse fa-4x" style="color:#1ec9d5;"></i>
+                        <h3 class="services__title">Salud</h3>
+                        <p class="services__description">Los probioticos y antioxidantes presentes en la kombucha ayudan a reforzar el sistema inmunológico.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class="fa-solid fa-leaf fa-4x" style="color:#1ec9d5;"></i>
+                        <h3 class="services__title">Desintoxicación</h3>
+                        <p class="services__description">La kombucha contiene ácido glucurónico que ayuda a combatir y eliminar sustancias que causan daño al organismo.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Nuestro</span>
+                <h2 class="section-title">MENU</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/jamaica png 2.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Kombucha sabor Jamaica</h3>
+                        <span class="menu__preci">$2.50</span>
+                        <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/hko original png.png" alt="" class="menu__img">
+                        <h3 class="menu__name"> Pack x 4</h3>
+                        <span class="menu__detail"></span>
+                        <span class="menu__preci">$4.50</span>
+                        <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/hko original png.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Kombucha sabor original</h3>
+                        <span class="menu__detail">    </span>
+                        <span class="menu__preci">$1.99</span>
+                        <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PROYECTO =======-->
+            <section class="app section bd-container" id="app">
+                <div class="app__container bd-grid">
+                    <div class="project__data">
+                        <span class="section-subtitle project__initial">NUESTRO</span>
+                        <h2 class="section-title project__initial">PROYECTO</h2>
+                        <p class="project__description">Hydrokomb es una kombucha diseñada para hidratar al cuerpo después de una sesión deportiva. Hydrokomb tiene todos los beneficios de una kombucha regular como la desintoxicación y el propio funcionamiento intestinal. Pero además de estos beneficios hydrokomb tiene una mayor cantidad de electrolitos, es decir que también tiene como beneficio una hidratación optima.</p>
+                
+
+                    </div>
+
+                    <img src="assets/img/movil-app.png" alt="" class="app__img">
+                </div>
+            </section>
+
+            <!--========== MISION VISION ==========-->
+            <section class="mision section bd-container" id="mision">
+                <div class="mision__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle mision__initial">Nuestra</span>
+                        <h2 class="section-title mision__initial">Misión y Visión</h2>
+                        <p class="mision__description">La misión y objetivo de Hydrokomb es proporcionar una kombucha hidratante que utilice solamente los ingredientes más frescos y de alta calidad en la producción. Hydrokomb proporcionara será una alternativa saludable a las actuales bebidas hidratantes que utilizan los deportistas.</p>
+                        <p class="mision__description">La visión de Hydrokomb es crear una marca líder en la industria de la kombucha. Que la marca sea reconocida por su innovación y el excelente producto que es ofrecido.</p>
+                    </div>
+                </div>
+                </div >
+            </section>
+        </main>
+
+            <!--========== PREVENTA ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Llena esta Encuesta</span>
+                        <h2 class="section-title contact__initial">ENCUESTA DE SATISFACCIÓN</h2>
+                        <p class="contact__description">Nos ayudaría mucho que conteste nuestra encuesta de satisfacción. Si le gusto nuestro producto escoja la opción "si" en la última pregunta para contactarnos con su pedido.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="https://forms.gle/kdfv6mnsbfnn57Fg6" class="button">Llenar la Encuesta</a>
+                    </div>
+                </div>
+                </div >
+            </section>
+        </main>
+
+            <!--===== BMI Calculator =======-->
+            <section class="calculator" id="calculator">
+            <section class="BMI Calculator section bd-container" id="BMI_container">
+            <div class="IMC_container"> <!-- container-->
+                <h2 class="section-title">Calculadora de Indice de Masa Corporal</h2>
+          
+        
+                <div class="input_fields">
+                    <label for="weight">Peso (kg): </label>
+                    <input type= "text", id="weight"><br>
+                    <label for="height">Altura (m): </label>
+                    <input type= "text", id="height" input><br><br>
+                </div>
+        
+                <div class ="button_container">
+                    <input type="submit" id="BMI_btn" value="Calcular IMC" onclick="BMI_calculator()">
+                </div>
+            
+                <div id="output_container">
+        
+                </div>
+                </div>
+
+            </section>
+
+                        <!--===== GETD Calculator =======-->
+            <section class="GETD Calculator section bd-container" id="GETD_calculator">
+                <div class="GETD_container"> <!-- container-->
+                    <h2 class="section-title">Calculadora Gasto Energetico Diario </h2>
+                    <div id='GETD_container'>
+
+                        <label for="weight1">Peso (kg): </label>
+                        <input type= "text", id="weight1"><br><br>
+                        <label for="height1">Altura (cm): </label>
+                        <input type= "text", id="height1" input><br><br>
+                        <label for="age">Edad (años): </label>
+                        <input type= "text", id="age" input><br><br>
+                        <label for="gender">Género: </label><br>
+                        <input type="radio" name="gender" value="male"> Hombre
+                        <input type="radio" name="gender" value="female"> Mujer<br><br>
+                        <label for="PAd">Actividad física Deportiva: </label><br>
+                        <input type="radio" name="PAd" value="sedentary"> Sedentaria
+                        <input type="radio" name="PAd" value="moderate"> Moderada
+                        <input type="radio" name="PAd" value="active"> Activa
+                        <input type="radio" name="PAd" value="very active"> Muy Activa <br><br>
+                        <label for="PAnd">Actividad física No Deportiva: </label><br>
+                        <input type="radio" name="PAnd" value="sedentary"> Sedentaria
+                        <input type="radio" name="PAnd" value="moderate"> Moderada
+                        <input type="radio" name="PAnd" value="active"> Activa
+                        <input type="radio" name="PAnd" value="very active"> Muy Activa <br><br>
+                            
+                            
+                    
+                            <div id="button_container">
+                                <input type="submit" id="calc_btn" value="Calcular" onclick="GETD_calculator()">
+                                <input type="button" id ="new_calc_btn" value="Borrar" onclick="Clean()"/>
+                            </div>
+            
+                            <div id="output_container1">
+            
+                            </div>
+            
+                    </div>
+            
+
+                </section>
+            </section>
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Hydrokomb</a>
+                    <span class="footer__description">Kombucha</span>
+                </div>
+
+       
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Información</h3>
+                    <ul>
+                        <li><a href="#menu" class="footer__link">Menu</a></li>
+                        <li><a href="#contact" class="footer__link">Contactenos</a></li>
+                        <li><a href="#calculator" class="footer__link">Calculadoras</a></li>
+                        <li><a href="#app" class="footer__link">Proyecto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Quito - Ecuador</li>
+
+                        <li>hydrokomb90@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <p class="footer__copy">&#169; 2023 HYDROKOMB. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+</body>
+</html>

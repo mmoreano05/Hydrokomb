@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head> <!-- cabeza de la página -->
+    <link href="fontawesome-free-5.15.4-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
+    <title></title>                      <!-- This is a comment; texto en pestaña-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Tipo', 'Gramos'],
+          ['Grasa',     11],
+          ['Carbohidratos',      20],
+          ['Proteina',  30],
+        ]);
+
+        var options = {
+          title: 'Información Nutricional',
+          fontName:'Arial'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script
+</head>
+
+<body> <!-- cuerpo de la página-->
+    
+  
+    </div>
+    <div id="chart_container">
+        <div id="piechart" style="width: 80%; height: 80%;"></div>
+    
+    </div>
+     
+
+</body>
+</html>
